@@ -1,0 +1,22 @@
+{
+  "name": "nft-mint-bot",
+  "version": "1.0.0",
+  "description": "Professional NFT Auto Mint Bot — Multi-chain, SeaDrop & ERC721A",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "author": "Lubi",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "dotenv": "^17.4.2",
+    "ethers": "^6.16.0",
+    "winston": "^3.19.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

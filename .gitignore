@@ -1,0 +1,21 @@
+# ════════════════════════════
+#  NFT Mint Bot — .gitignore
+# ════════════════════════════
+
+# 🔐 SECRETS — JANGAN PERNAH COMMIT INI!
+.env
+
+# Dependencies
+node_modules/
+
+# Log files (generated at runtime)
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
