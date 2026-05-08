@@ -185,7 +185,7 @@ export class MintBot {
     // ─────────────────────────────────────────────────────
 
     _printSuccess(receipt, phase) {
-        logger.title("🎉 MINT BERHASIL!");
+        logger.title("MINT BERHASIL!");
         logger.detail(`Phase    : ${phase.name}`);
         logger.detail(`Block    : ${receipt.blockNumber}`);
         logger.detail(`Gas used : ${receipt.gasUsed.toLocaleString()}`);
@@ -195,7 +195,7 @@ export class MintBot {
         const tokenIds = this.contract.parseTokenIds(receipt);
         if (tokenIds.length > 0) {
             logger.success(`${tokenIds.length} NFT berhasil di-mint:`);
-            tokenIds.forEach(id => logger.detail(`  🖼  Token #${id}`));
+            tokenIds.forEach(id => logger.detail(`     Token #${id}`));
         }
 
         logger.divider();

@@ -1,4 +1,4 @@
-# 🔨 NFT Auto Mint Bot
+# NFT Auto Mint Bot
 
 > **Professional NFT auto-mint automation bot built with Node.js & ethers.js**
 >
@@ -7,22 +7,22 @@
 
 <br>
 
-## ✨ Features
+## Features
 
-| Feature                   | Description                                              |
-| ------------------------- | -------------------------------------------------------- |
-| ⛓️ **Multi-chain**        | Base, Ethereum, Arbitrum, Optimism, Polygon, Zora, Blast |
-| 🔌 **SeaDrop Support**    | Native OpenSea SeaDrop protocol mint                     |
-| 🧩 **Plug & Play ABI**    | Drop any ABI JSON into `contracts/` — zero code changes  |
-| ⏰ **Auto Timing**        | Real-time countdown, executes the moment mint opens      |
-| 🔄 **Auto Retry**         | Configurable retry with smart fatal error detection      |
-| ⛽ **Smart Gas**          | Auto gas estimation + configurable buffer                |
-| 📝 **Session Logs**       | Every session saved to `logs/` with timestamps           |
-| 🏗️ **Clean Architecture** | Service layer, single responsibility, easily extendable  |
+| Feature                  | Description                                                                |
+| ------------------------ | -------------------------------------------------------------------------- |
+| **Multi-chain Support**  | Supports Base, Ethereum, Arbitrum, Optimism, Polygon, Zora, and Blast      |
+| **SeaDrop Support**      | Native support for OpenSea SeaDrop protocol minting                        |
+| **Plug & Play ABI**      | Drop any ABI JSON into `contracts/` with zero code changes                 |
+| **Auto Timing**          | Real-time countdown that executes exactly when mint opens                  |
+| **Auto Retry System**    | Configurable retry logic with smart fatal error detection                  |
+| **Smart Gas Estimation** | Automatic gas estimation with configurable buffer                          |
+| **Session Logging**      | Every session is automatically saved to `logs/` with timestamps            |
+| **Clean Architecture**   | Built with Service Layer architecture and single responsibility principles |
 
 <br>
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 nft-mint-bot/
@@ -58,7 +58,7 @@ nft-mint-bot/
 
 <br>
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone & Install
 
@@ -122,7 +122,7 @@ npm start
 
 <br>
 
-## 🌐 Supported Networks
+## Supported Networks
 
 | Key           | Network          | Explorer                |
 | ------------- | ---------------- | ----------------------- |
@@ -137,7 +137,7 @@ npm start
 
 <br>
 
-## ⛽ Gas Settings Guide
+## Gas Settings Guide
 
 ```env
 # Normal conditions
@@ -155,7 +155,7 @@ PRIORITY_FEE=1.0
 
 <br>
 
-## 🔧 Mint Types
+## Mint Types
 
 ### SeaDrop (OpenSea Protocol)
 
@@ -179,16 +179,16 @@ MINT_FUNCTION: "mint",   // or "publicMint", "mintPublic", etc.
 
 <br>
 
-## 🔒 Security
+## Security
 
-- ✅ Private key stored only in `.env` — never hardcoded
-- ✅ `.env` is in `.gitignore` — will never be committed
-- ✅ Use a **dedicated wallet** just for the bot
-- ✅ Only fund the wallet with what you need: `(price × qty) + gas`
+- Private key stored only in `.env` — never hardcoded
+- `.env` is in `.gitignore` — will never be committed
+- Use a **dedicated wallet** just for the bot
+- Only fund the wallet with what you need: `(price × qty) + gas`
 
 <br>
 
-## 📐 Architecture & Design Patterns
+## Architecture & Design Patterns
 
 ```
 index.js
@@ -205,7 +205,7 @@ index.js
 
 <br>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 |                | Library                                         | Version |
 | -------------- | ----------------------------------------------- | ------- |
@@ -216,6 +216,29 @@ index.js
 
 <br>
 
-## 📝 License
+## Contributing
 
-MIT © Lubi
+If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+<br>
+
+## Donations
+
+If you would like to support the development of this project, you can make a donation using the following addresses:
+
+- **Solana**: `EFBkqR2NtoAYRhtgziTESc2PtAgaGLc8wuTmajBXdfuh`
+- **EVM**: `0xE3A3B2b44e5244Eb4159101FDFD596937E54D092`
+- **BTC**: `bc1pawnaeky4rks2rkq0rh2ejh3kuuavnqzhvgtckh58nsd69ncfwsssmcdtsc`
+
+<br>
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+<br>
+
+## Contact
+
+- **Created by:** Lubitzy
+- **Telegram Information:** [Lubiqt](https://t.me/Lubitzy)

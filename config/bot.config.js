@@ -19,7 +19,7 @@ dotenv.config();
 export const BOT_CONFIG = {
 
     // ─────────────────────────────────────────────────────
-    // 🌐 NETWORK
+    //  NETWORK
     // Pilihan: ethereum | base | arbitrum | optimism |
     //          polygon  | zora | blast    | baseSepolia
     // ─────────────────────────────────────────────────────
@@ -27,12 +27,12 @@ export const BOT_CONFIG = {
     CUSTOM_RPC: process.env.RPC_URL || "",   // kosongkan = pakai default RPC
 
     // ─────────────────────────────────────────────────────
-    // 🔑 WALLET  (selalu dari .env, jangan hardcode!)
+    //  WALLET  (selalu dari .env, jangan hardcode!)
     // ─────────────────────────────────────────────────────
     PRIVATE_KEY: process.env.PRIVATE_KEY,
 
     // ─────────────────────────────────────────────────────
-    // 📜 CONTRACT
+    //  CONTRACT
     // ─────────────────────────────────────────────────────
     CONTRACT_ADDRESS: "0x9fE22A3B846F7c6345Bfdf4B5c6c5F3fc930f191",
 
@@ -65,12 +65,12 @@ export const BOT_CONFIG = {
     MINT_FUNCTION: "mint",
 
     // ─────────────────────────────────────────────────────
-    // 🎯 MINT QUANTITY
+    //  MINT QUANTITY
     // ─────────────────────────────────────────────────────
     MINT_QUANTITY: parseInt(process.env.MINT_QUANTITY) || 1,
 
     // ─────────────────────────────────────────────────────
-    // ⛽ GAS  (satuan: Gwei)
+    //  GAS  (satuan: Gwei)
     //
     //  Situasi       MAX_FEE   PRIORITY
     //  ─────────────────────────────────
@@ -86,7 +86,7 @@ export const BOT_CONFIG = {
     },
 
     // ─────────────────────────────────────────────────────
-    // 🔄 RETRY
+    //  RETRY
     // ─────────────────────────────────────────────────────
     RETRY: {
         MAX_ATTEMPTS: 3,
@@ -94,7 +94,7 @@ export const BOT_CONFIG = {
     },
 
     // ─────────────────────────────────────────────────────
-    // ⏰ MINT PHASES
+    //  MINT PHASES
     //
     // Cara konversi waktu WIB → UTC:
     //   WIB (GMT+7) dikurangi 7 jam = UTC
